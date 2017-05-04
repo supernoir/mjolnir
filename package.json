@@ -1,0 +1,14 @@
+{
+  "name": "mjolnir",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "supernoir <kawohl.bentodesign@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/supernoir/mjolnir.git",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.3.0",
+    "gulp-sass": "^3.1.0",
+    "sass": "^0.5.0"
+  }
+}
