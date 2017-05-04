@@ -1,0 +1,42 @@
+.nav{
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+  .dark{
+    background: linear-gradient(to left, $tertiary, $secondary);
+  }
+
+h1.brand{
+  font-family: $brand;
+  text-shadow: 0px 2px 0px rgba($secondary, .2);
+  color: $white;
+  font-weight: 400;
+    span.bold{
+      font-weight: 700;
+    }
+}
+
+.menu{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.menu-item{
+  margin: 0px;
+  padding: 10px;
+  list-style-type: none;
+  a{
+      color: $white;
+      &:hover{
+        border-bottom: 1px solid $white;
+      }
+  }
+}
