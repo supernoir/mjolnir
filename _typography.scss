@@ -1,0 +1,29 @@
+p.paragraph{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+p.quote{
+  font-size: 16px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+p.emphasis{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+p.source{
+  font-size: 14px;
+  line-height: 18px;
+  color: $mediumgrey;
+}
+
+p.legal{
+  font-size: 10px;
+  line-height: 14px;
+  color: $mediumgrey;
+}
