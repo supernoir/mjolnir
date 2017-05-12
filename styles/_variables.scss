@@ -5,10 +5,14 @@ $secondary: rgb(60, 30, 90);
 $tertiary: rgb(120, 30, 30);
 
 $lightgrey: rgb(230, 230, 230);
+$mediumgrey: rgb(200, 200, 200);
+$darkgrey: rgb(160, 160, 160);
 
 
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-$sans: 'Nunito', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro');
+$sans: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$serif: 'Source Serif Pro', 'Times New Roman', serif;
+$code: 'Source Code Pro', monospace;
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+SC:400,700,900');
 $brand: 'Alegreya SC', serif;
