@@ -1,14 +1,17 @@
 section{
-  padding: 20px 0px;
+  padding: 40px;
   min-height: 300px;
+
+  &.primary{
+    background: $primary;
+    text-align: center;
+    color: $white;
+  }
 
   &.primary-gradient{
     background: linear-gradient($secondary, $primary);
     text-align: center;
     color: $white;
-    h1{
-      color: $white;
-    }
   }
 
   &.grey-gradient{
@@ -16,6 +19,14 @@ section{
     text-align: center;
   }
 
+  .section-head{
+    margin: 40px;
+    border-bottom: 1px solid $white;
+  }
+
+  .section-body{
+    padding: 0 40px;
+  }
 
 }
 
