@@ -46,8 +46,21 @@ button{
 
 
   &:hover{
-    background: rgba($primary, .1);
+    background: none;
     color: $primary;
     border: 2px solid $primary;
   }
+
+&.inverted{
+  background: none;
+  color: $white;
+  border: 2px solid $white;
+
+  &:hover{
+    background: $white;
+    color: $primary;
+    border: 2px solid $white;
+  }
+}
+
 }

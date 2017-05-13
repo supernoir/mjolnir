@@ -28,3 +28,14 @@ p.legal{
   line-height: 14px;
   color: $mediumgrey;
 }
+
+.inverted{
+  // figure out the opposite color of primary/black?
+  color: $white;
+}
+
+h1{
+  &.inverted{
+    color: $white;
+  }
+}
