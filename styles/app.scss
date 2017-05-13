@@ -4,7 +4,11 @@
 @import 'button';
 @import 'cards';
 @import 'typography';
+<<<<<<< HEAD
 @import 'forms';
+=======
+@import 'sections';
+>>>>>>> development
 
 body {
   background: $white;
@@ -27,11 +31,7 @@ h1 {
 }
 
 .page-content{
-  padding: 20px;
-}
 
-section {
-  margin: 60px 0;
 }
 
 .hero{
