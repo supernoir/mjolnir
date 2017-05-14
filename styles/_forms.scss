@@ -1,17 +1,67 @@
 @import 'button';
 
-form{
-  
-  input{
+form{  
     font-family: $sans;
+
+  .formrow{
+    margin: 10px 0;
+    padding: 20px;
+    background: $lightgrey;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 768px){
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  label{
     font-size: 16px;
-    border: 1px solid $darkgrey;
-    padding: 4px;
+    line-height: 20px;
+    color: $black;
+    margin-bottom: 8px;
+  }
+
+  input[type=text],
+  input[type=date],
+  input[type=password]{
+    min-height: 20px;
+    font-size: 16px;
+    margin: 6px 0;
+    padding: 6px;
     background: $white;
-    
-    button{
-      @extend button;
+    border: 1px solid $lightgrey;
+    border-bottom: 1px solid $mediumgrey;
+    border-radius: 2px;
+
+  &::-webkit-input-placeholder{
+      color: $darkgrey;
+    }
+
+    &:focus,
+    &:active{
+      border: 1px solid $mediumgrey;
+      border-bottom: 1px solid $black;
+      outline: none;
+    }
+
+    &:hover{
+      border: 1px solid $lightgrey;
+      border-bottom: 1px solid $darkgrey;
     }
   }
+
+  input[type=label]{
+  }
+
+  input[type=submit],
+  input[type=reset],
+  input[type=button]{
+    @extend button;
+  }
+
 
 }
