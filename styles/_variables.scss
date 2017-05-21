@@ -1,18 +1,19 @@
-$white: rgb(250, 250, 250);
-$black: rgb(50, 50, 50);
-$primary: rgb(30, 60, 90);
-$secondary: rgb(60, 30, 90);
-$tertiary: rgb(120, 30, 30);
-
-$lightgrey: rgb(230, 230, 230);
-$mediumgrey: rgb(200, 200, 200);
-$darkgrey: rgb(160, 160, 160);
+@import 'themes/aesir';
 
 
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro');
-$sans: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-$serif: 'Source Serif Pro', 'Times New Roman', serif;
-$code: 'Source Code Pro', monospace;
+$white: $aesir_white;
+$black: $aesir_black;
+$primary: $aesir_primary;
+$secondary: $aesir_secondary;
+$tertiary: $aesir_tertiary;
 
-@import url('https://fonts.googleapis.com/css?family=Alegreya+SC:400,700,900');
-$brand: 'Alegreya SC', serif;
+$lightgrey: $aesir_lightgrey;
+$mediumgrey: $aesir_mediumgrey;
+$darkgrey: $aesir_darkgrey;
+
+
+$sans: $aesir_sans;
+$serif: $aesir_serif;
+$code: $aesir_code;
+
+$brand: $aesir_brand;
