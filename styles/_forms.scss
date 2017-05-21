@@ -6,7 +6,7 @@ form{
   .formrow{
     margin: 10px 0;
     padding: 20px;
-    background: $lightgrey;
+    background: rgba($lightgrey, .25);
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -61,6 +61,14 @@ form{
   input[type=reset],
   input[type=button]{
     @extend button;
+    background: $primary;
+    color: $white;
+    padding: 6px;
+    border: 2px solid $primary;
+      &:hover{
+        background: none;
+        color: $primary;
+      }
   }
 
 
