@@ -1,4 +1,4 @@
-.card-container {
+.card-collection {
   display: flex;
 
   @media screen and (max-width: 768px) {
@@ -12,16 +12,42 @@
 }
 
 .card {
-  background: $white;
+  width: auto;
   padding: 10px;
-  border: 2px solid $mediumgrey;
-  border-radius: 6px;
-  box-shadow: 0 2px 0 $mediumgrey;
   min-height: 560px;
+  margin: 10px;
+
+  background: $white;
+  border: 1px solid $mediumgrey;
+  border-radius: 4px;
+
+  &.inverted{
+    background: $primary;
+      .card-head{
+        border-bottom: 1px solid $white;
+      }
+    .card-headline,
+    .card-body-text{
+      color: white;
+    }
+  }
+
+  &.primary{
+    color: $primary;
+    border: 1px solid $primary;
+      .card-head{
+        border-bottom: 1px solid $primary;
+      }
+      .card-headline,
+      .card-body-text{
+        color: $primary;
+    }
+  }
+
 }
 
 .card-head{
-
+  border-bottom: 1px solid $mediumgrey;
 }
 
 .card-body{
