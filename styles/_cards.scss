@@ -14,7 +14,7 @@
 .card {
   width: auto;
   padding: 10px;
-  min-height: 560px;
+  min-height: 360px;
   margin: 10px;
 
   background: $white;
@@ -44,6 +44,10 @@
     }
   }
 
+  &:hover{
+    box-shadow: 0 2px 2px $lightgrey;
+  }
+
 }
 
 .card-head{
@@ -51,7 +55,16 @@
 }
 
 .card-body{
+  color: $mediumgrey;
   text-align: left;
   margin: 12px;
+  padding: 12px 0;
+
+  .card-image{
+    width: 100%;
+    height: auto;
+    border: 1px solid $lightgrey;
+    border-radius: 2px;
+  }
 
 }
