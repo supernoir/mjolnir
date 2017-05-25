@@ -1,0 +1,39 @@
+section{
+  padding: 40px;
+  min-height: 300px;
+
+  &.primary{
+    background: $primary;
+    color: $white;
+  }
+
+  &.primary-gradient{
+    background: linear-gradient($secondary, $primary);
+    color: $white;
+  }
+
+  &.grey-gradient{
+    background: linear-gradient($lightgrey, $mediumgrey);
+  }
+
+  &.fullwidth-image{
+    background: url('../public/img/rob-bye-103203.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-head{
+    margin: 40px;
+    border-bottom: 1px solid $primary;
+    &.inverted{
+      border-bottom: 1px solid $white;
+    }
+  }
+
+  .section-body{
+    padding: 0 40px;
+    text-align: left;
+  }
+
+}
+

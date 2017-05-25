@@ -4,6 +4,10 @@
 @import 'button';
 @import 'cards';
 @import 'typography';
+@import 'forms';
+@import 'sections';
+@import 'images';
+@import 'photogrid';
 
 body {
   background: $white;
@@ -13,44 +17,30 @@ body {
 }
 
 
-h1 {
-  color: $black;
-  font-size: 32px;
-  font-weight: 400;
-}
-
-
 .page{
   font-size: 16px;
   line-height: 20px;
 }
 
 .page-content{
-  padding: 20px;
-}
 
-section {
-  margin: 60px 0;
 }
 
 .hero{
   background: $lightgrey;
-  margin: 20px;
+  margin: 20px 0;
   padding: 20px;
   border-radius: 6px;
+  text-align: center;
 }
 
 a{
   color: $primary;
   text-decoration: none;
+  
   &:hover{
     text-decoration: none;
     border-bottom: 1px solid $primary;
   }
 }
 
-p{
-  font-size: 16px;
-  line-height: 24px;
-  color: $black;
-}
