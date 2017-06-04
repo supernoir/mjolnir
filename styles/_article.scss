@@ -1,0 +1,48 @@
+.article{
+  width: 100%;
+  border: 1px solid $primary;
+  border-radius: 6px;
+  margin: 12px 0;
+
+  .article-head{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-bottom: 1px solid $primary;
+    background: rgba($primary, 0.1);
+
+      .article-headline{
+        color: $primary;
+        font-size: 36px;
+        line-height: 38px;
+        margin: 6px 0;
+        font-family: $serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      .article-subhead{
+        color: $black;
+        font-size: 24px;
+        line-height: 20px;
+        margin: 16px 0 0;
+      }
+
+      .article-date{
+        color: $primary;
+        text-transform: uppercase;
+        border-radius: 4px;
+        padding: 8px 0;
+        margin: 0;
+      }
+  }
+
+  .article-body{
+    padding: 12px;
+    width: auto;
+
+    .article-image{
+      width: 100%;
+    }
+  }
+
+}

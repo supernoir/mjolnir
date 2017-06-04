@@ -16,5 +16,8 @@
     "gulp-sass": "^3.1.0",
     "sass": "^0.5.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp-clean-css": "^3.4.1",
+    "gulp-sourcemaps": "^2.6.0"
+  }
 }
